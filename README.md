@@ -26,8 +26,8 @@ To protect APIs using Auth0 access tokens, I created an API resource:
 Once I clicked **Create**, my new API resource was set up.
 
 **Image Reference**:
--![Screenshot 2025-01-02 102451](https://github.com/user-attachments/assets/874877ba-c65b-4e17-9109-2108514cfaec)
--![Screenshot 2025-01-02 102553](https://github.com/user-attachments/assets/bc30b3fa-9fdc-46cb-9e37-05fbdbc00536)
+![Screenshot 2025-01-02 102451](https://github.com/user-attachments/assets/874877ba-c65b-4e17-9109-2108514cfaec)
+![Screenshot 2025-01-02 102553](https://github.com/user-attachments/assets/bc30b3fa-9fdc-46cb-9e37-05fbdbc00536)
 
 
 
@@ -52,6 +52,7 @@ The **Issuer URI** is crucial for authentication and is derived from the OpenID 
 - After the application was created, I clicked on the **Settings** tab.
 - Scrolled down, I expanded the **Advanced Settings** section and clicked on the **Endpoints** tab.
 - From the **Endpoints** tab, I located the **OpenID Configuration URI**. The **Issuer URI** is part of this configuration and serves as the identifier of the authorization server.
+- I located the **OpenID Configuration URI**. Copied the URL and visited the url on a new tab this revealed The **Issuer URI** 
 
 **Image Reference**:
 ![Screenshot 2025-01-02 103820](https://github.com/user-attachments/assets/32d6281a-5014-4c5a-bed2-aee363bc1f91)
@@ -67,4 +68,4 @@ At this stage, I had:
 1. Signed up for Auth0.
 2. Created an API resource to protect with access tokens.
 3. Configured the default audience for my API.
-4. Retrieved the Issuer URI for further exercises.
+4. Retrieved the Issuer URI.
